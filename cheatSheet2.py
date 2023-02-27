@@ -238,4 +238,85 @@ print('\nafter', smallestSoFar)
 
 print('\n------------------------------\n')
 
+    # string length
+
+Strgg = 'banana'
+print(len(Strgg))
+
+print('\n------------------------------\n')
+
+    # loop throw str entered by the user while loop
+
+someStr = input('\nenter str so i can loop throw\n')
+i = 0
+
+while i < len(someStr):
+    print(i, someStr[i])
+    i += 1
+
+print('\n------------------------------\n')
+
+    # loop throw str entered by the user while loop
+
+i = -1
+
+for iteam in someStr:
+    i += 1
+    print(i, iteam)
+
+print('\n------------------------------\n')
+
+    # count the number og chr you choose in string enterd before
+
+lettr = input('\nplease enter a charcter you wont to serch for\n')
+count = 0
+
+if len(lettr) == 1:
+    for iteam in someStr:
+        if iteam == lettr:
+            count += 1
+else:
+    print('more than 1 char')
+    print('\n------------------------------\n')
+    sys.exit(1)
+    
+print(count)
+
+print('\n------------------------------\n')
+
+    # slicing
+
+try:
+    sSlic = int(input('enter a start num to slice\n'))
+    eSlic = int(input('enter a end num to slice\n'))
+except:
+    print('please enter a num')
+    print('\n------------------------------\n')
+    sys.exit(1)
+
+if sSlic < eSlic:
+    print(someStr[sSlic:eSlic])
+else:
+    print('enter a  start num and end num')
+    print('\n------------------------------\n')
+    sys.exit(1)
+
+print('\n------------------------------\n')
+
+    # string library
+
+zap = someStr.lower() # convert str to lowercase
+print(zap)
+
+gre = input('\ninput string\n')
+print(gre.lower())
+
+print('\n------------------------------\n')
+
+    # important, dir is to know the method in obj str
+
+print(dir(someStr))
+
+print('\n------------------------------\n')
+
     # 
