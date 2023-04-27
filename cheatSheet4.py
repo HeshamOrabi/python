@@ -2,7 +2,7 @@
 
 purse = dict() # defing a dic or purce = {}
 
-purse ['money'] = 1 # put things into dic purse with key -refirce onhow many of something in the dic-
+purse ['money'] = 1 # put things into dic purse with key -refirce on how many of something in the dic-
 purse ['candy'] = 2
 purse ['tissues'] = 3
 
