@@ -1,3 +1,4 @@
+    # Simple cal class go to OOP for more info about class
 class cal():
     def __init__(self,a,b):
         self.a=a
